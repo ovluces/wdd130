@@ -24,16 +24,18 @@ h1 {
 }
 
 main img {
-    float: right;
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 p {
     padding: 0;
+    margin: 1rem;
 }
 
 main {
@@ -48,6 +50,7 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -57,8 +60,9 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 47px;
-    left: 150px;
+    top: 117px;
+    left: 60px;
+    color: #eee;
 }
 
 footer {
@@ -74,4 +78,8 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+}
+
+.indent {
+    padding-left: 2rem;
 }
