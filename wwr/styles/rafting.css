@@ -59,6 +59,16 @@ nav li {
   border: 1px solid #000000;
 }
 
+figure {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+figure img {
+  width: 150px;
+  flex: auto;
+}
+
 nav a {
   display: block;
   justify-content: space-evenly;
