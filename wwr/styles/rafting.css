@@ -1,6 +1,6 @@
 :root {
   --primary-color: #14224e;
-  --accent1-color: #4394b9;
+  --accent1-color: #096792;
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
@@ -36,12 +36,12 @@ footer {
 
 footer nav {
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
 
 footer nav a img {
   display: block;
-  justify-content: space-evenly;
+  justify-content: right;
 }
 
 h1,
