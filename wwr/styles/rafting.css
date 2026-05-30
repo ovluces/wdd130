@@ -78,6 +78,7 @@ nav li {
 .figures img {
   width: 150px;
   flex: auto;
+  justify-content: space-evenly;
 }
 
 nav a {
