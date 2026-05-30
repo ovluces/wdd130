@@ -70,12 +70,12 @@ nav li {
   border: 1px solid #000000;
 }
 
-figure {
+.figures {
   display: flex;
   justify-content: space-evenly;
 }
 
-figure img {
+.figures img {
   width: 150px;
   flex: auto;
 }
