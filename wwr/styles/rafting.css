@@ -16,6 +16,12 @@ body {
   color: var(--accent1-color);
 }
 
+header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
 header,
 main {
   width: 840px;
@@ -37,6 +43,26 @@ nav,
 p {
   margin: 16px;
   padding: 8px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  margin: 1px;
+  padding: 15px;
+  display: block;
+  flex: 1 1 auto;
+  justify-content: space-evenly;
+  border: 1px solid #000000;
+}
+
+nav a {
+  display: block;
+  justify-content: space-evenly;
+  text-decoration: none;
 }
 
 article {
