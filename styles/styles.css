@@ -31,6 +31,15 @@ h1 {
     background-color: #EEE;
 }
 
+.centering {
+    height: 500px;
+    border: 20px solid #000;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
 header,
 .grid,
 footer {
