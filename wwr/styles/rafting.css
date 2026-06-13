@@ -75,10 +75,50 @@ nav li {
   justify-content: space-evenly;
 }
 
+.figures2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .figures img {
   width: 150px;
   flex: auto;
   justify-content: space-evenly;
+}
+
+.figures2 img {
+  width: 250px;
+  flex: auto;
+  justify-content: center;
+
+  border: 2px solid #14224e;
+}
+
+.figures2 figcaption {
+  text-align: center;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.table-item {
+  background-color: #fff;
+  color: #14224e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  border: 1px solid #555;
+}
+
+.title {
+  background-color: #3498db;
+  color: white;
 }
 
 nav a {
